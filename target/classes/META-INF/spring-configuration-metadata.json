@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "client",
+      "type": "org.springframework.azure.examples.recipesmanager.config.ClientProperties",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.ClientProperties"
+    },
+    {
+      "name": "cosmos",
+      "type": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "client.base-url",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.ClientProperties"
+    },
+    {
+      "name": "client.host-key",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.ClientProperties"
+    },
+    {
+      "name": "client.host-value",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.ClientProperties"
+    },
+    {
+      "name": "cosmos.key",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties"
+    },
+    {
+      "name": "cosmos.query-metrics-enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties"
+    },
+    {
+      "name": "cosmos.secondary-key",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties"
+    },
+    {
+      "name": "cosmos.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.azure.examples.recipesmanager.config.CosmosNoSQLProperties"
+    }
+  ],
+  "hints": []
+}

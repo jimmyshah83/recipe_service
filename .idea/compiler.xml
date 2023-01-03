@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-petclinic-config-server" />
+        <module name="recipes-manager" />
+        <module name="spring-petclinic-discovery-server" />
+        <module name="spring-petclinic-customers-service" />
+        <module name="spring-petclinic-vets-service" />
+        <module name="spring-petclinic-visits-service" />
+        <module name="marketdata" />
+        <module name="spring-petclinic-api-gateway" />
+        <module name="spring-petclinic-admin-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-petclinic" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="marketdata" options="-parameters" />
+      <module name="recipes-manager" options="-parameters" />
+      <module name="spring-petclinic" options="-parameters" />
+      <module name="spring-petclinic-admin-server" options="-parameters" />
+      <module name="spring-petclinic-api-gateway" options="-parameters" />
+      <module name="spring-petclinic-config-server" options="-parameters" />
+      <module name="spring-petclinic-customers-service" options="-parameters" />
+      <module name="spring-petclinic-discovery-server" options="-parameters" />
+      <module name="spring-petclinic-vets-service" options="-parameters" />
+      <module name="spring-petclinic-visits-service" options="-parameters" />
+    </option>
+  </component>
+</project>

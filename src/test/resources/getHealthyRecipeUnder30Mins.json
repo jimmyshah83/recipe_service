@@ -1,0 +1,507 @@
+{
+  "count": 36,
+  "results": [
+    {
+      "keywords": "complexcon, cooking demos, eat your feed fest, food, local ea0ts, long beach, pizza, recipe, tasty, ticket giveaway, viral",
+      "servings_noun_singular": "serving",
+      "brand_id": null,
+      "tags": [
+        {
+          "type": "difficulty",
+          "name": "5_ingredients_or_less",
+          "id": 64470,
+          "display_name": "5 Ingredients or Less"
+        },
+        {
+          "name": "easy",
+          "id": 64471,
+          "display_name": "Easy",
+          "type": "difficulty"
+        },
+        {
+          "name": "under_1_hour",
+          "id": 8091748,
+          "display_name": "Under 1 Hour",
+          "type": "difficulty"
+        },
+        {
+          "name": "under_15_minutes",
+          "id": 8091744,
+          "display_name": "Under 15 Minutes",
+          "type": "difficulty"
+        },
+        {
+          "id": 64472,
+          "display_name": "Under 30 Minutes",
+          "type": "difficulty",
+          "name": "under_30_minutes"
+        },
+        {
+          "name": "under_45_minutes",
+          "id": 8091747,
+          "display_name": "Under 45 Minutes",
+          "type": "difficulty"
+        },
+        {
+          "name": "dinner",
+          "id": 64486,
+          "display_name": "Dinner",
+          "type": "meal"
+        },
+        {
+          "name": "lunch",
+          "id": 64489,
+          "display_name": "Lunch",
+          "type": "meal"
+        },
+        {
+          "name": "dairy_free",
+          "id": 64463,
+          "display_name": "Dairy-Free",
+          "type": "dietary"
+        },
+        {
+          "name": "gluten_free",
+          "id": 64465,
+          "display_name": "Gluten-Free",
+          "type": "dietary"
+        },
+        {
+          "id": 64466,
+          "display_name": "Healthy",
+          "type": "dietary",
+          "name": "healthy"
+        },
+        {
+          "name": "keto",
+          "id": 8091756,
+          "display_name": "Keto",
+          "type": "dietary"
+        },
+        {
+          "name": "pescatarian",
+          "id": 3801552,
+          "display_name": "Pescatarian",
+          "type": "dietary"
+        },
+        {
+          "name": "vegan",
+          "id": 64468,
+          "display_name": "Vegan",
+          "type": "dietary"
+        },
+        {
+          "name": "vegetarian",
+          "id": 64469,
+          "display_name": "Vegetarian",
+          "type": "dietary"
+        }
+      ],
+      "nutrition": {},
+      "num_servings": 8,
+      "approved_at": 1664488873,
+      "is_one_top": false,
+      "yields": "Servings: 8",
+      "promotion": "full",
+      "language": "eng",
+      "user_ratings": {
+        "score": 0.909091,
+        "count_negative": 5,
+        "count_positive": 50
+      },
+      "prep_time_minutes": 10,
+      "compilations": [],
+      "description": "Join Tasty & First We Feast for Eat Your Feed Fest, our first-ever food festival, November 19 and 20, 2022 in Long Beach, California! Want to attend the fest as our guest? Leave a comment on this recipe letting us know what you’d like to try at Eat Your Feed Fest and fill out our <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSeJkPFqODH2GRe_gb_2Bs0MuuMFLKFRjiWmmctlX6UyeJXNEg/viewform?usp=sf_link\">official entry form</a>. The winner will receive two General Admission 2-Day Tickets to ComplexCon. Winners will be selected at random and notified by November 10, 2022.",
+      "total_time_minutes": 20,
+      "renditions": [
+        {
+          "content_type": "video/mp4",
+          "aspect": "portrait",
+          "minimum_bit_rate": null,
+          "name": "mp4_404x720",
+          "height": 720,
+          "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/255984/square_720/1664467917_00001.png",
+          "file_size": 6079406,
+          "duration": 24381,
+          "bit_rate": 1995,
+          "width": 404,
+          "maximum_bit_rate": null,
+          "container": "mp4",
+          "url": "https://vid.tasty.co/output/255984/square_720/1664467917"
+        },
+        {
+          "container": "mp4",
+          "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/255984/square_320/1664467917_00001.png",
+          "url": "https://vid.tasty.co/output/255984/square_320/1664467917",
+          "content_type": "video/mp4",
+          "aspect": "portrait",
+          "minimum_bit_rate": null,
+          "height": 320,
+          "file_size": 2174791,
+          "duration": 24381,
+          "bit_rate": 714,
+          "width": 180,
+          "name": "mp4_180x320",
+          "maximum_bit_rate": null
+        },
+        {
+          "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/255984/landscape_720/1664467917_00001.png",
+          "file_size": 6072532,
+          "url": "https://vid.tasty.co/output/255984/landscape_720/1664467917",
+          "aspect": "portrait",
+          "width": 404,
+          "maximum_bit_rate": null,
+          "height": 720,
+          "container": "mp4",
+          "bit_rate": 1993,
+          "content_type": "video/mp4",
+          "minimum_bit_rate": null,
+          "name": "mp4_404x720",
+          "duration": 24381
+        },
+        {
+          "aspect": "portrait",
+          "width": 270,
+          "minimum_bit_rate": null,
+          "bit_rate": 1161,
+          "content_type": "video/mp4",
+          "name": "mp4_270x480",
+          "container": "mp4",
+          "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/255984/landscape_480/1664467917_00001.png",
+          "file_size": 3535557,
+          "url": "https://vid.tasty.co/output/255984/landscape_480/1664467917",
+          "duration": 24381,
+          "maximum_bit_rate": null,
+          "height": 480
+        },
+        {
+          "duration": 24400,
+          "aspect": "portrait",
+          "name": "low",
+          "height": 1080,
+          "poster_url": "https://img.buzzfeed.com/video-transcoder-prod/output/255984/1445289064805-h2exzu/1664467917_00001.png",
+          "file_size": null,
+          "url": "https://vid.tasty.co/output/255984/hls24_1664467917.m3u8",
+          "bit_rate": null,
+          "content_type": "application/vnd.apple.mpegurl",
+          "width": 608,
+          "minimum_bit_rate": 278,
+          "maximum_bit_rate": 3100,
+          "container": "ts"
+        }
+      ],
+      "beauty_url": null,
+      "video_id": 167170,
+      "instructions": [
+        {
+          "display_text": "Tap the “I made this!” button on this recipe.",
+          "start_time": 0,
+          "appliance": null,
+          "end_time": 0,
+          "temperature": null,
+          "id": 73374,
+          "position": 1
+        },
+        {
+          "position": 2,
+          "display_text": "Leave a comment letting us know which Tasty recipe you’d like to enjoy at Eat Your Feed Fest or why you love Tasty with the hashtag #EatYourFeedFest.",
+          "start_time": 0,
+          "appliance": null,
+          "end_time": 0,
+          "temperature": null,
+          "id": 73375
+        },
+        {
+          "end_time": 0,
+          "temperature": null,
+          "id": 73376,
+          "position": 3,
+          "display_text": "Let us know how to contact you using the official entry form (link is located in the tip section).",
+          "start_time": 0,
+          "appliance": null
+        },
+        {
+          "temperature": null,
+          "id": 73377,
+          "position": 4,
+          "display_text": "Mark your calendars for November 19 and 20.",
+          "start_time": 0,
+          "appliance": null,
+          "end_time": 0
+        },
+        {
+          "start_time": 0,
+          "appliance": null,
+          "end_time": 0,
+          "temperature": null,
+          "id": 73378,
+          "position": 5,
+          "display_text": "Keep an eye out for our ticket winner announcement by November 10, 2022."
+        },
+        {
+          "temperature": null,
+          "id": 73379,
+          "position": 6,
+          "display_text": "Enjoy live cooking demos hosted by your favorite creators, try some of Tasty's most popular recipes, and eat your way through some of LA's most iconic restaurants and food trucks!",
+          "start_time": 0,
+          "appliance": null,
+          "end_time": 0
+        },
+        {
+          "end_time": 0,
+          "temperature": null,
+          "id": 73380,
+          "position": 7,
+          "display_text": "Have fun!",
+          "start_time": 0,
+          "appliance": null
+        }
+      ],
+      "brand": null,
+      "draft_status": "published",
+      "thumbnail_alt_text": "",
+      "video_ad_content": "none",
+      "original_video_url": "https://s3.amazonaws.com/video-api-prod/assets/6798bdd51a96437ea04bf91de3a54fd5/EYFF_RECIPE_PROMO_V05.mp4",
+      "nutrition_visibility": "auto",
+      "sections": [
+        {
+          "components": [
+            {
+              "extra_comment": "",
+              "ingredient": {
+                "updated_at": 1663791149,
+                "name": "A dash of your favorite creators",
+                "created_at": 1663791149,
+                "display_plural": "A dashes of your favorite creators",
+                "id": 10248,
+                "display_singular": "A dash of your favorite creators"
+              },
+              "id": 97184,
+              "position": 1,
+              "measurements": [
+                {
+                  "unit": {
+                    "display_plural": "",
+                    "display_singular": "",
+                    "abbreviation": "",
+                    "system": "none",
+                    "name": ""
+                  },
+                  "quantity": "0",
+                  "id": 709122
+                }
+              ],
+              "raw_text": "n/a"
+            },
+            {
+              "raw_text": "n/a",
+              "extra_comment": "",
+              "ingredient": {
+                "display_singular": "ounces viral Tasty classic",
+                "updated_at": 1664488848,
+                "name": "ounces viral Tasty classics",
+                "created_at": 1664488848,
+                "display_plural": "ounces viral Tasty classics",
+                "id": 10346
+              },
+              "id": 97185,
+              "position": 2,
+              "measurements": [
+                {
+                  "unit": {
+                    "system": "none",
+                    "name": "",
+                    "display_plural": "",
+                    "display_singular": "",
+                    "abbreviation": ""
+                  },
+                  "quantity": "8",
+                  "id": 709124
+                }
+              ]
+            },
+            {
+              "raw_text": "1 package of live cooking demos",
+              "extra_comment": "",
+              "ingredient": {
+                "updated_at": 1663791304,
+                "name": "live cooking demos",
+                "created_at": 1663791304,
+                "display_plural": "live cooking demos",
+                "id": 10252,
+                "display_singular": "live cooking demo"
+              },
+              "id": 97181,
+              "position": 3,
+              "measurements": [
+                {
+                  "unit": {
+                    "display_plural": "packages",
+                    "display_singular": "package",
+                    "abbreviation": "package",
+                    "system": "none",
+                    "name": "package"
+                  },
+                  "quantity": "1",
+                  "id": 709128
+                }
+              ]
+            },
+            {
+              "measurements": [
+                {
+                  "unit": {
+                    "display_singular": "g",
+                    "abbreviation": "g",
+                    "system": "metric",
+                    "name": "gram",
+                    "display_plural": "g"
+                  },
+                  "quantity": "285",
+                  "id": 709127
+                },
+                {
+                  "unit": {
+                    "system": "imperial",
+                    "name": "ounce",
+                    "display_plural": "oz",
+                    "display_singular": "oz",
+                    "abbreviation": "oz"
+                  },
+                  "quantity": "10",
+                  "id": 709126
+                },
+                {
+                  "id": 709125,
+                  "unit": {
+                    "system": "none",
+                    "name": "can",
+                    "display_plural": "cans",
+                    "display_singular": "can",
+                    "abbreviation": "can"
+                  },
+                  "quantity": "3"
+                }
+              ],
+              "raw_text": "3 10-ounce cans of local eats",
+              "extra_comment": "",
+              "ingredient": {
+                "display_singular": "local eat",
+                "updated_at": 1664488053,
+                "name": "local eats",
+                "created_at": 1664488053,
+                "display_plural": "local eats",
+                "id": 10341
+              },
+              "id": 97182,
+              "position": 4
+            },
+            {
+              "ingredient": {
+                "created_at": 1663791451,
+                "display_plural": "spicy challenges",
+                "id": 10254,
+                "display_singular": "spicy challenge",
+                "updated_at": 1663791451,
+                "name": "spicy challenges"
+              },
+              "id": 97183,
+              "position": 5,
+              "measurements": [
+                {
+                  "unit": {
+                    "system": "none",
+                    "name": "",
+                    "display_plural": "",
+                    "display_singular": "",
+                    "abbreviation": ""
+                  },
+                  "quantity": "0",
+                  "id": 709123
+                }
+              ],
+              "raw_text": "Spicy challenges, to taste",
+              "extra_comment": "to taste"
+            }
+          ],
+          "name": null,
+          "position": 1
+        }
+      ],
+      "show": {
+        "name": "Tasty",
+        "id": 17
+      },
+      "credits": [
+        {
+          "name": "Murad Yasin",
+          "type": "internal"
+        }
+      ],
+      "servings_noun_plural": "servings",
+      "cook_time_minutes": 10,
+      "price": {
+        "consumption_total": 0,
+        "consumption_portion": 0,
+        "total": 0,
+        "updated_at": "2023-01-03T06:31:42+01:00",
+        "portion": 0
+      },
+      "id": 8494,
+      "buzz_id": null,
+      "aspect_ratio": "9:16",
+      "created_at": 1664482587,
+      "inspired_by_url": null,
+      "updated_at": 1664807090,
+      "is_shoppable": false,
+      "seo_title": "Eat Your Feed Fest Pizza Recipe & Ticket Giveaway ",
+      "country": "US",
+      "facebook_posts": [],
+      "show_id": 17,
+      "canonical_id": "recipe:8494",
+      "name": "Eat Your Feed Fest Pizza",
+      "video_url": "https://vid.tasty.co/output/255984/hls24_1664467917.m3u8",
+      "topics": [
+        {
+          "name": "5 Ingredients or Less",
+          "slug": "5-ingredients-or-less"
+        },
+        {
+          "name": "Best Vegetarian",
+          "slug": "best-vegetarian"
+        },
+        {
+          "name": "Easy Dinner",
+          "slug": "easy-dinner"
+        },
+        {
+          "slug": "healthy",
+          "name": "Healthy Eating"
+        },
+        {
+          "name": "Keto",
+          "slug": "keto"
+        },
+        {
+          "slug": "vegan",
+          "name": "Vegan"
+        },
+        {
+          "name": "Lunch",
+          "slug": "lunch"
+        },
+        {
+          "name": "Dinner",
+          "slug": "dinner"
+        }
+      ],
+      "total_time_tier": {
+        "tier": "under_30_minutes",
+        "display_tier": "Under 30 minutes"
+      },
+      "slug": "eat-your-feed-fest-pizza",
+      "tips_and_ratings_enabled": true,
+      "thumbnail_url": "https://img.buzzfeed.com/thumbnailer-prod-us-east-1/video-api/assets/402248.jpg"
+    }
+  ]
+}
