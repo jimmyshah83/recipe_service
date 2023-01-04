@@ -3,17 +3,11 @@ client:
   hostKey: 086cb58392mshbc5d142a5c56b96p1c1fe2jsned95361c2c3a
   hostValue: tasty.p.rapidapi.com
 
-#cosmos:
-#  uri: https://cosdb-nosql-js-upskill.documents.azure.com:443/
-#  key: tWqkhw2C2R2FtKin6sAz0YktEX7SkWuRcz7c6kezBr7TYnTrt8ApH19NjMlxn1FNM7oPaPXXUOuUACDbXd0E7g==
-#  secondaryKey: 7OW1fjM5jfuCtbhErC4iL5eDKB0SGeaUiUbM4FsvpXRUNdgiYuu1odrToRYcAnFTczggvi29LD5KACDbKCZvqA==
-#  queryMetricsEnabled: true
-
 spring:
   cloud:
     azure:
       cosmos:
-        endpoint: https://cosdb-nosql-js-upskill.documents.azure.com:443/
-        key: tWqkhw2C2R2FtKin6sAz0YktEX7SkWuRcz7c6kezBr7TYnTrt8ApH19NjMlxn1FNM7oPaPXXUOuUACDbXd0E7g==
-        database: recipedb
+        endpoint: https://recipes-db.documents.azure.com:443
+        key: VloU1pwUMNIJOYezjjlDq74FfFfumvSwUQOImkW8kpwFg4t8FHhLAil1k7L5tgwWjtbuE5OvcxmIACDbTBFmSw==
+        database: recipe-test-db
         populate-query-metrics: true

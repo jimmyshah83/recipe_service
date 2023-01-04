@@ -6,17 +6,13 @@ import lombok.Builder;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 
-import java.time.OffsetDateTime;
-
-@Container(containerName = "recipe", ru = "400")
+@Container(containerName = "recipe")
 @Data
 @Builder
-public class RecipeEntity {
+public class Recipe {
 
     @Id
     private String id;
-
-    private Integer recipeId;
 
     private String description;
 
@@ -25,7 +21,7 @@ public class RecipeEntity {
     private String slug;
 
     @PartitionKey
-    private Integer servings;
+    private String country;
 
-    private OffsetDateTime createdDate;
+    private Integer servings;
 }

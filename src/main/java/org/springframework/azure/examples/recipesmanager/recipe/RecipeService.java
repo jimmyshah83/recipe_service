@@ -13,7 +13,7 @@ public class RecipeService {
     private final EDAMAMWebClient webClient;
     private final RecipeNoSQLRepository recipeNoSQLRepository;
 
-    public Flux<RecipeEntity> getRandomRecipeByType(String recipeType) {
+    public Flux<Recipe> getRandomRecipeByType(String recipeType) {
         return webClient.getWebClient()
                 .get()
                 .uri(uriBuilder ->
@@ -24,14 +24,14 @@ public class RecipeService {
                                 .queryParam("q", recipeType)
                                 .build())
                 .retrieve()
-                .bodyToFlux(RecipeEntity.class);
+                .bodyToFlux(Recipe.class);
     }
 
-    public Mono<RecipeEntity> saveRecipe(RecipeEntity recipe) {
-        return recipeNoSQLRepository.save(recipe);
+    public void saveRecipe(Recipe recipe) {
+        Flux.just(recipe).flatMap(recipeNoSQLRepository::save);
     }
 
-    public Mono<RecipeEntity> getRecipeById(Integer id) {
-        return recipeNoSQLRepository.findById(id);
+    public Mono<Recipe> getRecipeById(String recipeId) {
+        return recipeNoSQLRepository.findById(recipeId);
     }
 }

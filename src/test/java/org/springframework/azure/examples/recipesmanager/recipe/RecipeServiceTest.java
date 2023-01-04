@@ -5,27 +5,28 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.time.OffsetDateTime;
-
 @SpringBootTest
 class RecipeServiceTest {
+
+    private String recipeId = "5678";
 
     @Autowired
     private RecipeService recipeService;
 
     @Test
     public void testSave() {
-        recipeService.saveRecipe(RecipeEntity.builder()
-                .name("test name")
-                .description("test description")
-                .recipeId(1234)
-                .slug("test slug")
-                .servings(8)
-                .createdDate(OffsetDateTime.now())
-                .build());
+        recipeService.saveRecipe(
+                Recipe.builder()
+                        .name("test name")
+                        .description("test description")
+                        .id(recipeId)
+                        .slug("test slug")
+                        .servings(8)
+                        .country("US")
+                        .build());
 
-        RecipeEntity recipeEntity = recipeService.getRecipeById(1234).block();
-        assert recipeEntity != null;
-        Assertions.assertEquals(recipeEntity.getServings(), 8);
+        Recipe recipe = recipeService.getRecipeById("1234").block();
+        assert recipe != null;
+        Assertions.assertEquals(recipe.getServings(), 8);
     }
 }
